@@ -1,9 +1,13 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
 
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
-
+    lintOptions {
+        abortOnError false
+    }
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 25
@@ -25,4 +29,14 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
+}
+
+publish {
+    userOrg = 'bigbd'
+    //Bintray注册的用户名 gradlew clean build bintrayUpload -PbintrayUser=bigbd -PbintrayKey=c8b6766244de82574417018bf9c6d5c16c306120 -PdryRun=false
+    groupId = 'com.bigbadegg'         //compile引用时的groupId 形如 com.android.support
+    artifactId = 'aseekbar'     //compile引用时的项目名  形如 appcompat-v7
+    publishVersion = '1.0.0'    //compile引用时的版本号   形如 24.0.0
+    desc = '一个自定义seekbar 随便改' //描述
+    website = 'https://github.com/o0o0oo00/ASeekBarDemo' //可以填写  git地址
 }
