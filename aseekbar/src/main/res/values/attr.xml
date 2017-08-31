@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ASeekBar">
+        <attr name="stall_name" format="string" />
+        <attr name="stall_count" format="integer" />
+        <attr name="default_stall" format="integer" />
+        <attr name="text_color" format="color" />
+        <attr name="seekbar_progress" format="reference" />
+        <attr name="seekbar_thump" format="reference" />
+    </declare-styleable>
+</resources>

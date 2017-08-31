@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bigbadegg.aseekbar.ASeekBar
+        android:id="@+id/aseekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:default_stall="1"
+        app:seekbar_progress="@drawable/bg_seekbar"
+        app:seekbar_thump="@mipmap/zanting"
+        app:stall_count="4">
+
+    </com.bigbadegg.aseekbar.ASeekBar>
+
+    <com.bigbadegg.aseekbar.ASeekBar
+        android:id="@+id/aseekbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:default_stall="2"
+        app:stall_count="5"
+        app:stall_name="档位"
+        app:text_color="@color/colorAccent">
+
+    </com.bigbadegg.aseekbar.ASeekBar>
+</LinearLayout>
