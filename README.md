@@ -12,7 +12,7 @@
 大家多多指教了
 
 使用方法： 
-在根目录下的build.gradle中添加     
+在根目录下的build.gradle中添加（因为还没有通过审核，所以要先加这一句，通过了之后就不用加了）     
 ![image](https://raw.githubusercontent.com/o0o0oo00/test/master/aseekbar/use.png)    
  maven { url 'https://dl.bintray.com/bigbd/maven' }  
  
