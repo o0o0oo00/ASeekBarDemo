@@ -1,7 +1,7 @@
 # ASeekBarDemo
 灰常灰常简单的一个自定义seekbar  
 ![image](https://raw.githubusercontent.com/o0o0oo00/test/master/aseekbar/ASeekBar.gif)  
-支持更改一下内容（都不是必须添加的，都有默认值）：  
+支持更改以下内容（都不是必须添加的，都有默认值）：当然了把lib拿去随便改    
 选择档位数量，最小3档，最大五档（因为鄙人认为两个档或者一个档没有意义了，超过五个档有点密集了，不太好）  
 更改档位名称  
 设置默认是第几档  
@@ -12,12 +12,8 @@
 大家多多指教了
 
 使用方法： 
-在根目录下的build.gradle中添加（因为还没有通过审核，所以要先加这一句，通过了之后就不用加了）     
-![image](https://raw.githubusercontent.com/o0o0oo00/test/master/aseekbar/use.png)    
- maven { url 'https://dl.bintray.com/bigbd/maven' }  
- 
  在app的build.gradle中添加  
- compile 'com.bigbadegg:aseekbar:1.0.0@aar'    
+ compile 'com.bigbadegg:aseekbar:1.0.0'    
  然后再xml文件中进行如下使用  
  ```
   <com.bigbadegg.aseekbar.ASeekBar
