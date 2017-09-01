@@ -38,5 +38,6 @@
 
     </com.bigbadegg.aseekbar.ASeekBar>
     ```
-#回调方法  
-![image](https://raw.githubusercontent.com/o0o0oo00/test/master/aseekbar/listener.png)    
+#回调方法
+
+![image](https://raw.githubusercontent.com/o0o0oo00/test/master/aseekbar/listener.png)
