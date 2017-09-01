@@ -12,7 +12,7 @@
 
 大家多多指教了
 
-使用方法： 
+# 使用方法： 
  在app的build.gradle中添加  
  compile 'com.bigbadegg:aseekbar:1.0.0'    
  然后再xml文件中进行如下使用  
