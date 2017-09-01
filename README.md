@@ -38,6 +38,13 @@
 
     </com.bigbadegg.aseekbar.ASeekBar>
     ```
-#回调方法
 
-![image](https://raw.githubusercontent.com/o0o0oo00/test/master/aseekbar/listener.png)
+    ```
+ aSeekBar = (ASeekBar) findViewById(R.id.aseekbar);
+        aSeekBar.setOnASeekBarListener(new ASeekBar.ASeekBarListener() {
+            @Override
+            public void SeekBarChange(int stall) {
+                Toast.makeText(MainActivity.this, "当前档位是：" + stall, Toast.LENGTH_SHORT).show();
+            }
+        });
+    ```
