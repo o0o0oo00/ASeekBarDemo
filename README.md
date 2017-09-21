@@ -38,8 +38,8 @@
 
     </com.bigbadegg.aseekbar.ASeekBar>
     ```
-
-    ```
+在Java代码中回调事件
+    ```
  aSeekBar = (ASeekBar) findViewById(R.id.aseekbar);
         aSeekBar.setOnASeekBarListener(new ASeekBar.ASeekBarListener() {
             @Override
